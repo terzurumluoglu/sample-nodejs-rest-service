@@ -1,0 +1,27 @@
+{
+  "name": "sample-nodejs-rest-service",
+  "version": "1.0.0",
+  "description": "Sample Nodejs Rest Service",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terzurumluoglu/sample-nodejs-rest-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terzurumluoglu/sample-nodejs-rest-service"
+  },
+  "homepage": "https://github.com/terzurumluoglu/sample-nodejs-rest-service"
+}
