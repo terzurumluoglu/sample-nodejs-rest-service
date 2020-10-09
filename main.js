@@ -8,7 +8,7 @@ app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 const swaggerConfig = require('./swagger');
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 app.use('/api/v1', routes);
 // app.use('/api/v2', routes);
