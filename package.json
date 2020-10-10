@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/terzurumluoglu/sample-nodejs-rest-service.git"
   },
-  "author": "",
+  "author": "Toprak",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/terzurumluoglu/sample-nodejs-rest-service"
