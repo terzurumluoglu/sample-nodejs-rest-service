@@ -9,7 +9,7 @@ const options = {
             "url": "https://opensource.org/licenses/MIT"
         }
     },
-    "host": "localhost:8080",
+    "host": "https://sample-nodejs-rest-service.azurewebsites.net",
     "basePath": "/api/v1/",
     "tags": [
         {
@@ -40,7 +40,7 @@ const options = {
     ],
 
     "paths": {
-        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/user": {
+        "/user": {
             "get": {
                 "tags": [
                     "Users"
@@ -64,7 +64,7 @@ const options = {
                 }
             }
         },
-        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/user/{userId}": {
+        "/user/{userId}": {
             "get": {
                 "tags": [
                     "Users"
@@ -91,7 +91,7 @@ const options = {
                 }
             }
         },
-        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/post":{
+        "/post":{
             "get": {
                 "tags": [
                     "Posts"
@@ -115,7 +115,7 @@ const options = {
                 }
             }
         },
-        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/post/{postId}" : {
+        "/post/{postId}" : {
             "get": {
                 "tags": [
                     "Posts"
@@ -149,7 +149,7 @@ const options = {
                 }
             }
         },
-        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/user/{userId}/post": {
+        "/user/{userId}/post": {
             "get": {
                 "tags": [
                     "User Posts"
@@ -183,7 +183,7 @@ const options = {
                 }
             }
         },
-        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/comment/{postId}" : {
+        "/comment/{postId}" : {
             "get": {
                 "tags": [
                     "Comments"
