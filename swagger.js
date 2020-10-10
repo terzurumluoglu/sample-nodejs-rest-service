@@ -9,7 +9,7 @@ const options = {
             "url": "https://opensource.org/licenses/MIT"
         }
     },
-    "host": "https://sample-nodejs-rest-service.azurewebsites.net",
+    "host": "sample-nodejs-rest-service.azurewebsites.net",
     "basePath": "/api/v1/",
     "tags": [
         {
@@ -30,7 +30,7 @@ const options = {
         }
     ],
     "schemes": [
-        "http"
+        "https"
     ],
     "consumes": [
         "application/json"
