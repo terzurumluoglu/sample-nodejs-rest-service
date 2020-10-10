@@ -40,7 +40,7 @@ const options = {
     ],
 
     "paths": {
-        "/user": {
+        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/user": {
             "get": {
                 "tags": [
                     "Users"
@@ -64,7 +64,7 @@ const options = {
                 }
             }
         },
-        "/user/{userId}": {
+        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/user/{userId}": {
             "get": {
                 "tags": [
                     "Users"
@@ -91,7 +91,7 @@ const options = {
                 }
             }
         },
-        "/post":{
+        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/post":{
             "get": {
                 "tags": [
                     "Posts"
@@ -115,7 +115,7 @@ const options = {
                 }
             }
         },
-        "/post/{postId}" : {
+        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/post/{postId}" : {
             "get": {
                 "tags": [
                     "Posts"
@@ -149,7 +149,7 @@ const options = {
                 }
             }
         },
-        "/user/{userId}/post": {
+        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/user/{userId}/post": {
             "get": {
                 "tags": [
                     "User Posts"
@@ -183,7 +183,7 @@ const options = {
                 }
             }
         },
-        "/comment/{postId}" : {
+        "https://sample-nodejs-rest-service.azurewebsites.net/api/v1/comment/{postId}" : {
             "get": {
                 "tags": [
                     "Comments"
